@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Agenda de contatos</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Criar novo contato</h1>
+	<form name="frmContato" action="insert">
+		<label for="name">
+			<span>Nome</span>
+		</label>
+		<br />
+		<input type="text" required="required" name="nome" placeholder="Nome">
+		
+		<br />
+		
+		<label for="fone">
+			<span>Telefone</span>
+		</label>
+		<br />
+		<input type="text" required="required" name="fone" placeholder="Telefone">
+		
+		<br />
+		
+		<label for="email">
+			<span>E-mail</span>
+		</label>
+		<br />
+		<input type="email" name="email" placeholder="E-mail">
+		
+		<br />
+		
+		<button class="btn" style="margin-top: 12px;" type="submit">Criar contato</button>
+	</form>
+	
+	<script type="text/javascript" src="scripts/validador.js"></script>
+</body>
+</html>
